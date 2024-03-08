@@ -1,0 +1,24 @@
+/*
+Theme Name: SOL
+Theme URI: https://scml.pt
+Author: Núcleo de Desenvolvimento Digital da SCML
+Author URI: https://scml.pt
+Description: Por boas causas DICM | NDD@SCML.
+Requires at least: 5.2
+Tested up to: 8.0
+Requires PHP: 7.0
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: sol
+Tags: Bootstrap based layout using the following libraries AOS, Bootstrap, Bootstrap Icons, Boxicons, Glightbox, Purecounter, Remixicon, Swiper
+
+SOL Theme, (C) 2022 scml.pt
+SOL is distributed under the terms of the GNU GPL.
+*/
+
+/*
+* Font smoothing.
+* This is a niche setting that will not be available via Global Styles.
+* https://github.com/WordPress/gutenberg/issues/35934
+*/

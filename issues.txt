@@ -1,0 +1,79 @@
+(base) ➜  public git:(master) git push origin master             
+warning: redirecting to https://gitlab.com/ndd1/SOL.git/
+Enumerating objects: 20, done.
+Counting objects: 100% (20/20), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (11/11), done.
+Writing objects: 100% (11/11), 3.59 KiB | 3.59 MiB/s, done.
+Total 11 (delta 7), reused 0 (delta 0), pack-reused 0
+remote: 
+remote: To create a merge request for master, visit:
+remote:   https://gitlab.com/ndd1/SOL/-/merge_requests/new?merge_request%5Bsource_branch%5D=master
+remote: 
+To https://gitlab.com/ndd1/SOL
+   c69ff16..1b8498d  master -> master
+(base) ➜  public git:(master) ✗ 
+
+
+Qual a diferença entre distrito de Lisboa e concelho de Lisboa?
+
+Error: Attribute fifu-featured not allowed on element img at this point.
+
+Placing cf7:
+<?php echo apply_shortcodes( '[contact-form-7 id="207" title="Contact form 1"]' ); ?>
+
+<label> Estuda ou reside na cidade de Lisboa?</label>
+
+[radio radio-estuda-ou-reside use_label_element "Estudo" "Resido"]
+
+  [group group-nome]
+    <p>Qual o primeiro da criança/jovem?</p>
+    <label> Primeiro Nome
+    [text primeiro-name] </label>
+    <label> Último Nome
+    [text ultimo-name] </label>
+     [group group-contacto]
+      <label> Email
+      [email your-email] </label>
+      <label> Telefone
+      [tel tel-295] </label>
+       [group group-residencia]
+ <label> Qual o motivo da consulta?
+  [text* motivo] </label>
+   [group group-data]
+    <label> A partir de que data podemos marcar a sua consulta?
+     [date data-preferida] </label>
+     [group group-dias-da-semana]
+      <p>Quais os dias da semana que prefere para a marcação da sua consulta?</p>
+      [checkbox checkbox-dias use_label_element "segunda-feira" "terça-feira" "quarta-feira" "quinta-feira" "sexta-feira" "sábado (8h - 13h)"]
+      [group group-horario]
+       <p>Em que horários do dia prefere?</p>
+       [checkbox checkbox-horario use_label_element exclusive "Manhã (8h - 13h)" "Tarde (14h - 19h)"]
+      [/group]horario
+     [/group]dias
+   [/group] data
+  [/group]residencia
+    [/group]contact
+  [/group]nome
+
+
+
+<label> Subject
+    [text* your-subject] </label>
+
+<label> Your message (optional)
+    [textarea your-message] </label>
+
+[submit "Submit"]
+
+check:
+All copy
+
+Why images do not render in Edge
+
+  
+
+
+
+
+
