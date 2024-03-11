@@ -349,7 +349,7 @@
 
         <?php
         $gallery = new WP_Query(array(
-          'posts_per_page' => 12,
+          'posts_per_page' => 16,
           'post_type' => 'gallery',
           'orderby' => 'title',
           'order' => 'ASC',

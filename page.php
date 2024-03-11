@@ -2,9 +2,8 @@
 $theParent = wp_get_post_parent_id(get_the_ID());
 while (have_posts()) : the_post(); ?>
 
-  <div class="page-banner">
-    <!--div class="page-banner__bg-image" style="background-image: url(<?= get_theme_file_uri('/assets/img/illustrations/doctor_2-01.svg'); ?>)"></div-->
-    <div class="page-banner__bg-image" style="background-image: url(<?= get_theme_file_uri('/assets/img/origin/clinica/equipamentos-placa.png'); ?>)"></div>
+  <div class="page-banner" style="height: 100px;">
+
     <?php
     $testArray = get_pages(array(
       'child_of' => get_the_ID()
@@ -58,12 +57,51 @@ while (have_posts()) : the_post(); ?>
     <?php
       $page = get_page_by_path( 'institucional' );
      if ($page) : ?>
+
       <div class="container">
-        <div class="row aos-init aos-animate">
+        <div class="row justify-content-between">
+          <div class="col-lg-7 pt-5 pt-lg-0 order-2 order-lg-1 d-flex align-items-center zIndex-2">
+            <div data-aos="zoom-out">
+              <h1>Saúde Oral em Lisboa <span>SOL</span></h1>
+              <h2>Institucional e Investigação</h2>
+
+            </div>
+          </div>
+          <div class="col-lg-4 order-1 order-lg-2 hero-img zIndex-2" data-aos="zoom-out" data-aos-delay="300">
+            <img src="<?php echo get_theme_file_uri('/assets/img/origin/homepage-foto-1.webp'); ?>" class="img-fluid animated" alt="Criança a sorrir">
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="section-title" data-aos="fade-up">
+          <h2>Valores</h2>
+          <p>Exercemos a nossa atividade com base em valores, atitudes e práticas humanistas, num quadro de permanente e atuante disponibilidade, de dignificação humana e profissional.</p>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="section-title" data-aos="fade-up">
+          <h2>Investigação</h2>
+          <p>
+            O nosso compromisso com a educação, formação contínua, investigação e pesquisa bibliográfica permite-nos estar na vanguarda da implementação de novas práticas de saúde, nomeadamente no que se refere a tratamentos pioneiros, procedimentos mais modernos e técnicas de última geração.
+            <br>
+            Avançamos de mãos dadas com a evidência científica mais atual. Nesse sentido procuramos capacitar os nossos profissionais com formação atualizada e permanente, e dar a oportunidade de investigação e apresentação de casos clínicos e publicações científicas em revistas da especialidade e em congressos de sociedades científicas nacionais e internacionais.
+            <br>
+            <a href="https://www.researchgate.net/institution/Santa_Casa_da_Misericordia_de_Lisboa" target="_blank">Saiba mais sobre a investigação desenvolvida no SOL, na plataforma Researchgate.</a>
+            <i class="bi bi-box-arrow-up-right"></i>
+          </p>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="section-title" data-aos="fade-up">
           <h2>Notícias</h2>
           <?php get_template_part( 'news_template' ); ?>
         </div>
       </div>
+
+      
     <?php else : ?>
       <div class="container">
         <div class="row aos-init aos-animate">
@@ -72,8 +110,12 @@ while (have_posts()) : the_post(); ?>
       </div>
     <?php endif; ?>
 
-
-    </section><!-- End About Section -->
+      <div class="container">
+        <div class="section-title" data-aos="fade-up">
+          <h2>Literacia</h2>
+        </div>
+      </div>
+    </section>
     <?php get_footer(); ?>
   </main>
   <!-- End #main -->

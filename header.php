@@ -27,6 +27,7 @@
         <ul>
           <li><a class="nav-link scrollto" href="<?= site_url('#conditions'); ?>">Como funciona</a></li>
           <li><a class="nav-link scrollto" href="<?= site_url('#features'); ?>">Serviços</a></li>
+          <li><a class="nav-link scrollto" href="<?= site_url('#gallery'); ?>">Galeria</a></li>
           <li><a class="nav-link scrollto" href="<?= site_url('#team'); ?>">Equipa</a></li>
           <li><a class="nav-link scrollto" href="<?= site_url('#faq'); ?>">FAQ</a></li>
           <li><a class="nav-link scrollto" href="<?php echo site_url('#contact'); ?>">Contactos</a></li>
