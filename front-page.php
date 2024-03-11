@@ -349,7 +349,7 @@
 
         <?php
         $gallery = new WP_Query(array(
-          'posts_per_page' => 8,
+          'posts_per_page' => 12,
           'post_type' => 'gallery',
           'orderby' => 'title',
           'order' => 'ASC',
@@ -730,12 +730,9 @@
         </div>
         <div id="modalBody" class="modal-body">
           <p class="form-init-q">
-          <strong>IMPORTANTE:</strong><br>
-      Esta inscrição é válida apenas para todos os utentes com idade compreendida entre os 0 e 17 anos, inclusive.
-          
-        
-          <img style="display: block; margin: 0 auto; width: 50%;" src="<?= get_theme_file_uri('/assets/img/illustrations/schedule.svg'); ?>" class="img-fluid" alt="Calendario">
-        
+            <strong>IMPORTANTE:</strong><br>
+            Esta inscrição é válida apenas para todos os utentes com idade compreendida entre os 0 e 17 anos, inclusive.
+            <img style="display: block; margin: 0 auto; width: 50%;" src="<?= get_theme_file_uri('/assets/img/illustrations/schedule.svg'); ?>" class="img-fluid" alt="Calendario">
             Já se encontra inscrito no SOL?
           </p>
           <div class="form-choices">

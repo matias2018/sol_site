@@ -30,7 +30,7 @@
           <li><a class="nav-link scrollto" href="<?= site_url('#team'); ?>">Equipa</a></li>
           <li><a class="nav-link scrollto" href="<?= site_url('#faq'); ?>">FAQ</a></li>
           <li><a class="nav-link scrollto" href="<?php echo site_url('#contact'); ?>">Contactos</a></li>
-          <li><a class="nav-link scrollto" href="#">Investigação</a></li>
+          <li><a class="nav-link scrollto" href="<?php echo site_url('/institucional'); ?>">Institucional</a></li>
           <li>
             <!-- ======= CTA ======= -->
             <a 
