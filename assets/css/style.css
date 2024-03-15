@@ -144,6 +144,9 @@ p.forcing-width-64 {
 .mb-0 {
   margin-bottom: 0;
 }
+.mb-100 {
+  margin-bottom: 100px;
+}
 .ml-0 {
   margin-left: 0;
 }

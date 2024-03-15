@@ -46,7 +46,6 @@
               <div class="feature-flex">
               <div class="icon-box">
                 <span class="like-h5">
-                  <img src="<? the_post_thumbnail_url(); ?>" class="img-responsive wp-image-264" width="40" alt="<?= the_title(); ?>">
                   <b class="green"><?php the_title(); ?></b>
                 </span>
               </div>
