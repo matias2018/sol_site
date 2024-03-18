@@ -66,10 +66,7 @@
 
   <div class="container">
     <div class="copyright">
-      &copy; 2022 Copyright SCML - <strong><span>Saúde Oral em Lisboa</span></strong>. Todos os direitos reservados
-    </div>
-    <div class="credits">
-      <a class="footer-nav-link" href="https://scml.pt/">NDD | DICM | SCML</a>
+      &copy; 2024 Copyright SCML - <strong><span>Saúde Oral em Lisboa</span></strong>. Todos os direitos reservados
     </div>
   </div>
 </footer><!-- End Footer -->

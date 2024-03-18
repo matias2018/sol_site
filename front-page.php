@@ -18,7 +18,7 @@
       <div class="col-lg-7 pt-5 pt-lg-0 order-2 order-lg-1 d-flex align-items-center zIndex-2">
         <div data-aos="zoom-out">
           <h1>Saúde Oral em Lisboa <span>SOL</span></h1>
-          <h2>Sorrisos não se medem aos palmos</h2>
+          <h2>Os sorrisos não se medem aos palmos</h2>
 
         </div>
       </div>
@@ -69,9 +69,9 @@
         </div>
 
         <div class="col-xl-4 col-lg-6 icon-boxes d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5" data-aos="fade-left">
-          <h3>Seja bem vindo à Clínica SOL</h3>
+          <h3>Bem vindo ao SOL - Serviço Odontopediátrico de Lisboa - Saúde Oral em Lisboa</h3>
           <p>
-          O SOL – Saúde Oral em Lisboa representa o primeiro serviço odontopediátrico da capital. Inaugurado em junho de 2019, este centro clínico da Misericórdia de Lisboa tem como objetivo ajudar a melhorar os níveis de saúde oral dos mais novos.
+            O SOL é um serviço de medicina dentária pediátrico, constituído por uma equipa com elevada formação e experiência. Inaugurado em agosto de 2019, este centro clínico da Santa Casa da Misericórdia de Lisboa vem reforçar o seu papel de complementaridade com o Serviço Nacional de Saúde e tem como objetivo ajudar a melhorar os níveis de saúde oral dos mais novos.
           </p>
 
         </div>
@@ -257,7 +257,7 @@
 
       <div class="section-title" data-aos="fade-up">
         <h2>Serviços</h2>
-        <h3>O que temos para oferecer</h3>
+        <h3>QUE SERVIÇOS DISPONIBILIZAMOS</h3>
       </div>
 
       <div class="row" data-aos="fade-left">
@@ -320,11 +320,9 @@
 
           <div class="col-md-6 mt-4 mt-md-4">
             <a href="<?= the_permalink(); ?>">
-              <div class="icon-box" data-aos="zoom-in" data-aos-delay="50">
-                <h3>
-                  <?php the_title(); ?>
-                </h3>
-              </div>
+              <h3>
+                <?php the_title(); ?>
+              </h3>
             </a>
           </div>
 
@@ -393,10 +391,7 @@
       <div class="row" data-aos="fade-left">
         <p>
         Conheça a equipa que contribui ativamente para a melhoria da saúde oral da população, através do desenvolvimento de conhecimento científico. <br>
-        Saiba mais sobre os estudos desenvolvidos no <a href="https://www.researchgate.net/lab/Servico-Odontopediatrico-de-Lisboa-Saude-Oral-em-Lisboa-Andre-Brandao-de-Almeida" target="_blank">
-            LAB, na plataforma Researchgate.
-              <i class="bi bi-box-arrow-up-right"></i>
-            </a>
+        Saiba mais sobre a investigação desenvolvida no SOL, na <a href="https://www.researchgate.net/lab/Servico-Odontopediatrico-de-Lisboa-Saude-Oral-em-Lisboa-Andre-Brandao-de-Almeida" target="_blank">plataforma Researchgate.<i class="bi bi-box-arrow-up-right" style="margin-left: 10px;"></i></a>
           
         </p>
       </div>
