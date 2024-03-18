@@ -19,12 +19,25 @@
         <?php
         while (have_posts()) {
           the_post(); ?>
-          <h3><a href="<? the_permalink(); ?>"><?php the_title(); ?></a></h3>
           <div class="meta-box">
             <small class="post_date">Publicado a <?php the_time('d.m.Y'); ?> sob a categoria <?php echo get_the_category_list(' | '); ?></small>
             <p><span><?php the_category(' | '); ?></span></p>
           </div>
-          <?php the_content(); ?>
+
+          <div class="row" data-aos="fade-left">
+        <div class="container imgrows">
+
+          <div class="row content">
+            <div class="col-md-4 mr-5" data-aos="fade-right">
+              <img src="<?php the_post_thumbnail_url(); ?>" class="" alt="Como funciona o nosso serviço?">
+            </div>
+            <h3 style="margin-top: 50px;">
+              <a href="<? the_permalink(); ?>"><?php the_title(); ?></a>
+            </h3>
+          </div>
+        </div>
+      </div>
+      <p><?php the_content(); ?></p>
           <hr>
         <?php } ?>
       </div>

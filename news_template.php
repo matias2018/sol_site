@@ -15,8 +15,9 @@
   $category_name = 'noticias';
 
   $noticias = new WP_Query(array(
-    'posts_per_page' => 3,
+    'posts_per_page' => -1,
     'post_type' => 'post',
+    'order' => 'ASC',
     'category_name' => $category_name
   ));
   // print_r($noticias);
