@@ -1,6 +1,4 @@
 <?php
-
-
 function sol_files()
 {
   wp_enqueue_style('fonts', 'https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i');
@@ -209,14 +207,15 @@ function custom_help_widget()
 }
 /** End REMOVE EVENTS AND WORDPRESS STUFF */
 
-add_action( 'wp_footer', 'mycustom_wp_footer' );
-  
-function mycustom_wp_footer() {
+add_action('wp_footer', 'mycustom_wp_footer');
+
+function mycustom_wp_footer()
+{
 ?>
-<script type="text/javascript">
-document.addEventListener( 'wpcf7mailsent', function( event ) {
-  clearForms();
-}, false );
-</script>
+  <script type="text/javascript">
+    document.addEventListener('wpcf7mailsent', function(event) {
+      clearForms();
+    }, false);
+  </script>
 <?php
 }
