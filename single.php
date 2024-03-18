@@ -1,9 +1,9 @@
 <?php get_header(); ?>
 
 <div class="page-banner">
-  <div class="page-banner__bg-image" style="background-image: url(<?= get_theme_file_uri('/assets/img/illustrations/doctor_2-01.svg'); ?>)"></div>
+  <div class="page-banner__bg-image" style="background-image: url(<?= get_theme_file_uri('/assets/img/gallery/jpgs/rx2.jpg'); ?>); background-position: right 0 center;"></div>
   <div class="page-banner__content container">
-    <h1 class="page-banner__title">Artigos</h1>
+    <h1 class="page-banner__title">Investigação e notícias</h1>
     <div class="page-banner__intro">
       <p>Voltar para <?php echo get_the_category_list(', '); ?></p>
     </div>
