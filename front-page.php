@@ -11,7 +11,7 @@
     <div class="row justify-content-between">
       <div class="col-lg-7 pt-5 pt-lg-0 order-2 order-lg-1 d-flex align-items-center zIndex-2">
         <div data-aos="zoom-out">
-          <h1>Saúde Oral em Lisboa <span>SOL</span></h1>
+          <h1><span>SOL</span> - Saúde Oral em Lisboa <br>Serviço Odontopediátrico de Lisboa</h1>
           <h2>Os sorrisos não se medem aos palmos</h2>
 
         </div>
@@ -52,7 +52,7 @@
         </div>
 
         <div class="col-xl-4 col-lg-6 icon-boxes d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5" data-aos="fade-left">
-          <h3>Bem vindo ao SOL - Serviço Odontopediátrico de Lisboa - Saúde Oral em Lisboa</h3>
+          <h3>Bem vindo ao SOL</h3>
           <p>
             O SOL é um serviço de medicina dentária pediátrico, constituído por uma equipa com elevada formação e experiência. Inaugurado em agosto de 2019, este centro clínico da Santa Casa da Misericórdia de Lisboa vem reforçar o seu papel de complementaridade com o Serviço Nacional de Saúde e tem como objetivo ajudar a melhorar os níveis de saúde oral dos mais novos.
           </p>

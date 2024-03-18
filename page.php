@@ -62,26 +62,13 @@ while (have_posts()) : the_post(); ?>
           <div class="row justify-content-between">
             <div class="col-lg-7 pt-5 pt-lg-0 order-2 order-lg-1 d-flex align-items-center zIndex-2">
               <div data-aos="zoom-out">
-                <h1>SOL - Serviço Odontopediátrico de Lisboa<br><small>Saúde Oral em Lisboa</small></h1>
+              <h1><span>SOL</span> - Saúde Oral em Lisboa <br>Serviço Odontopediátrico de Lisboa</h1>
                 <h2>Institucional e Investigação</h2>
 
               </div>
             </div>
             <div class="col-lg-4 order-1 order-lg-2 hero-img zIndex-2" data-aos="zoom-out" data-aos-delay="300">
               <img src="<?php echo get_theme_file_uri('/assets/img/origin/homepage-foto-1.webp'); ?>" class="img-fluid animated" alt="Criança a sorrir">
-            </div>
-          </div>
-        </div>
-
-        <div class="container mb-100">
-          <div class="row content">
-            <div class="col-md-8 pt-5 order-2 order-md-1 goto-right-on-desktop" data-aos="fade-up">
-              <div class="section-title" data-aos="fade-up">
-                <h2>Valores</h2>
-              </div>
-              <p>
-                Exercemos a nossa atividade com base em valores, atitudes e práticas humanistas, num quadro de permanente e atuante disponibilidade, de dignificação humana e profissional.
-              </p>
             </div>
           </div>
         </div>
