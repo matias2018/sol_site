@@ -86,7 +86,6 @@ while (have_posts()) : the_post(); ?>
           </div>
         </div>
 
-<<<<<<< HEAD
       <div class="container mb-100">
         <div class="row content">
           <div class="col-md-8 pt-5 order-2 order-md-1 goto-right-on-desktop" data-aos="fade-up">
@@ -118,28 +117,8 @@ while (have_posts()) : the_post(); ?>
               </div>
             </div>
 
-=======
-        <div class="container">
-          <div class="row content">
-
-            <div class="col-md-8 pt-5 goto-right-on-desktop" data-aos="fade-up">
-              <div class="section-title" data-aos="fade-up">
-                <h2>Investigação</h2>
-              </div>
-              <p>
-                O nosso compromisso com a educação, formação contínua, investigação e pesquisa bibliográfica permite-nos estar na vanguarda da implementação de novas práticas de saúde, nomeadamente no que se refere a tratamentos pioneiros, procedimentos mais modernos e técnicas de última geração.
-                <br>
-                Avançamos de mãos dadas com a evidência científica mais atual. Nesse sentido procuramos capacitar os nossos profissionais com formação atualizada e permanente, e dar a oportunidade de investigação e apresentação de casos clínicos e publicações científicas em revistas da especialidade e em congressos de sociedades científicas nacionais e internacionais.
-                <br>
-                <a href="https://www.researchgate.net/institution/Santa_Casa_da_Misericordia_de_Lisboa" target="_blank">Saiba mais sobre a investigação desenvolvida no SOL, na plataforma Researchgate.</a>
-                <i class="bi bi-box-arrow-up-right"></i>
-              </p>
-            </div>
-          </div>
->>>>>>> dab9a61e896739a16fe62990666ed2c9be9a79e4
         </div>
 
-<<<<<<< HEAD
       <div class="container">
         <div class="row content">
           <div class="col-md-8 pt-5 order-2 order-md-1" data-aos="fade-up">
@@ -150,19 +129,6 @@ while (have_posts()) : the_post(); ?>
         </div>
         <div class="section-title" data-aos="fade-up">
           <?php get_template_part( 'news_template' ); ?>
-=======
-        <div class="container">
-          <div class="row content">
-            <div class="col-md-8 pt-5 order-2 order-md-1" data-aos="fade-up">
-              <div class="section-title" data-aos="fade-up">
-                <h2>Notícias</h2>
-              </div>
-            </div>
-          </div>
-          <div class="section-title" data-aos="fade-up">
-            <?php get_template_part('news_template'); ?>
-          </div>
->>>>>>> dab9a61e896739a16fe62990666ed2c9be9a79e4
         </div>
 
 

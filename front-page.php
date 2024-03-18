@@ -339,7 +339,7 @@
           'order' => 'ASC',
           'tax_query' => array(
             array(
-              'taxonomy' => 'category', // Replace with your custom taxonomy name if applicable
+              'taxonomy' => 'category',
               'field' => 'slug',
               'terms' => array('space-gallery'),
             )
