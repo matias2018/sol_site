@@ -4,9 +4,6 @@
   <div class="page-banner__bg-image" style="background-image: url(<?= get_theme_file_uri('/assets/img/gallery/jpgs/rx2.jpg'); ?>); background-position: right 0 center;"></div>
   <div class="page-banner__content container">
     <h1 class="page-banner__title">Investigação e notícias</h1>
-    <div class="page-banner__intro">
-      <p>Voltar para <?php echo get_the_category_list(', '); ?></p>
-    </div>
   </div>
 </div>
 
@@ -25,19 +22,19 @@
           </div>
 
           <div class="row" data-aos="fade-left">
-        <div class="container imgrows">
+            <div class="container imgrows">
 
-          <div class="row content">
-            <div class="col-md-4 mr-5" data-aos="fade-right">
-              <img src="<?php the_post_thumbnail_url(); ?>" class="" alt="Como funciona o nosso serviço?">
+              <div class="row content">
+                <div class="col-md-4 mr-5" data-aos="fade-right">
+                  <img src="<?php the_post_thumbnail_url(); ?>" class="" alt="Como funciona o nosso serviço?">
+                </div>
+                <h3 style="margin-top: 50px;">
+                  <a href="<? the_permalink(); ?>"><?php the_title(); ?></a>
+                </h3>
+              </div>
             </div>
-            <h3 style="margin-top: 50px;">
-              <a href="<? the_permalink(); ?>"><?php the_title(); ?></a>
-            </h3>
           </div>
-        </div>
-      </div>
-      <p><?php the_content(); ?></p>
+          <p><?php the_content(); ?></p>
           <hr>
         <?php } ?>
       </div>
